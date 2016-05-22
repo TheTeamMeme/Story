@@ -6,4 +6,4 @@
 //This youtube video has now been added to the randomizer
 list[0] = "5NTqZ347TKY"
 list[1] = "JJxJPBKfeGk"
-list[3] = "OnNqxI5EdiI"
+list[2] = "OnNqxI5EdiI"
