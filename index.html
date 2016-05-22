@@ -1,16 +1,18 @@
+
 <head>
 <title>
 Story Music
 </title>
 <head>
 <body>
-<script type="text/javascript">
-var urls = new Array("https://www.youtube.com/watch?v=5NTqZ347TKY");
-function redirect()
-{
-  window.location = urls[Math.floor(urls.length*Math.random())];
-}
-var temp = setInterval("redirect()", 3000);
-
+<div id="video"></div>
+<script>
+  var list = [""]
+</script>
+<script src="list.js"></script>
+<script>
+var vid = list[Math.floor(Math.random()*(list.length))]
+  vid = vid.replace(" ", "")
+  document.getElementById("video").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' vid '" frameborder="0" allowfullscreen=""></iframe>'
 </script>
 </body>
